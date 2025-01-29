@@ -9,5 +9,4 @@ void main()
     else{
         printf("True")
     }
-    return 0;
 }
