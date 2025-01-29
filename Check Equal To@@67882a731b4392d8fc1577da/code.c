@@ -1,6 +1,7 @@
 #include <stdio.h>
-void main(){
-    int ,b;
+void main()
+{
+    int a,b;
     scanf("%d  %d",&a,&b);
     if(a==b){
         printf("True");
