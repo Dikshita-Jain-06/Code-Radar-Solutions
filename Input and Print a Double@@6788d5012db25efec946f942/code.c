@@ -3,5 +3,5 @@ void main()
 {
     double n;
     scanf("%lf",&n);
-    printf("%lf",n);
+    printf("%.4lf",n);
 }
