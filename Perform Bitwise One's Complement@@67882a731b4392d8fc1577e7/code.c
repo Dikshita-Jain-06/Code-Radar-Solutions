@@ -3,6 +3,6 @@ void main()
 {
     int num,result;
     scanf("%d",&num);
-    result~=num;
+    result=~num;
     printf("%d",result);
 }
