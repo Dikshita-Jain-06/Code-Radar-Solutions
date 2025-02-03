@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    int a,b,d;
+    int a,b,d,e;
     scanf("%d%d",&a,&b);
     char ch;
     scanf("%c",&ch);
@@ -10,7 +10,8 @@ void main()
         printf("%d",d);
     }
     else if(ch=='-'){
-        printf("%d",a-b);
+        e=a-b;
+        printf("%d",e);
     }
     else if(ch=='*'){
         printf("%d",a*b);
