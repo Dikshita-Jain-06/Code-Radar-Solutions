@@ -17,5 +17,5 @@ void main()
         else{
             printf("Special Character");
     }
-    printf("")
+
 }
