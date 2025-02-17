@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int a,b
-    scanf("%d%d",&a,&b);
+    int a,b;
     char ch;
+    scanf("%d%d",&a,&b);
     scanf("%c",&ch);
     if(ch=='+'){
         printf("%d",a+b);
@@ -15,11 +15,14 @@ void main()
         if(b==0){
             printf("error");
         }
-        else{
-            printf("%d",a/b);
+        else if(a%b==0){
+            printf("error");
         }
     }
-    else{
+    else if(ch=='*'){
         printf("%d",a*b);
+    }
+    else{
+        printf("error");
     }
 }
