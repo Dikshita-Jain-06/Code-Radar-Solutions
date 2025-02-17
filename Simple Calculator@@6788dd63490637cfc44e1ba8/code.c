@@ -10,6 +10,9 @@ void main()
     else if(ch=='-'){
         printf("%d",a-b);
     }
+    else if(ch=='*'){
+        printf("%d",a*b);
+    }
     else if(ch=='/'){
         if(b==0){
             printf("error");
@@ -17,9 +20,6 @@ void main()
         else if(a%b==0){
             printf("%d",a/b);
         }
-    }
-    else if(ch=='*'){
-        printf("%d",a*b);
     }
     else{
         printf("error");
