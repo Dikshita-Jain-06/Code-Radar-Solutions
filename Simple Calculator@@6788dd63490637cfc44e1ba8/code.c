@@ -16,7 +16,7 @@ void main()
             printf("error");
         }
         else if(a%b==0){
-            printf("error");
+            printf("%d",a/b);
         }
     }
     else if(ch=='*'){
