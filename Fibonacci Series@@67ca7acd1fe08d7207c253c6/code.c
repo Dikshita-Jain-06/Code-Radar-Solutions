@@ -8,7 +8,7 @@ void fibonacci(int n){
     }
     printf("\n");
 }
-int main(){
+int fibonacci_main(){
     int n;
     scanf("%d",&n);
     if(n<=0){
